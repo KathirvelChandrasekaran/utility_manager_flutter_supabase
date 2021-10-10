@@ -16,6 +16,7 @@ dependencies:
     sdk: flutter
   flutter_dotenv: 5.0.2
   flutter_riverpod: ^0.14.0+3
+  flutter_slidable: ^0.6.0
   lottie: ^1.2.1
   share: ^2.0.4
   sliding_up_panel: ^2.0.0+1
