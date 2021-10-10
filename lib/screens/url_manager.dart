@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:lottie/lottie.dart';
 import 'package:utility_manager_flutter/providers/meta_collection_provider.dart';
 import 'package:utility_manager_flutter/screens/url_search.dart';
 import 'package:utility_manager_flutter/screens/single_collection_view.dart';
@@ -79,6 +80,16 @@ class _UrlManagerState extends State<UrlManager> {
                       ),
                       userMetaCollection.map(
                         data: (res) {
+                          if (res.value.data.length < 1)
+                            return Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                SizedBox(
+                                  height: 100,
+                                ),
+                                Lottie.asset('assets/empty.json'),
+                              ],
+                            );
                           return Flexible(
                             child: ListView.builder(
                               scrollDirection: Axis.vertical,
