@@ -288,37 +288,35 @@ class _TodoPageState extends State<TodoPage> {
                   child: RoundedButtonWidget(
                     buttonText: 'Add task',
                     width: MediaQuery.of(context).size.width * 0.90,
-                    onpressed: () {
-                      // await supabase.from('TodoList').insert([
-                      //   {
-                      //     'email': supabase.auth.currentUser?.email,
-                      //     'task_name': _taskNameController.text,
-                      //     'task_description': _descriptionController.text,
-                      //     'date_time': dateTime,
-                      //     'color': selectColor,
-                      //     'year': year,
-                      //     'month': month,
-                      //     'date': date,
-                      //     'hr': hr,
-                      //     'mins': mins,
-                      //   }
-                      // ]).execute();
-                      // AwesomeNotifications().createNotification(
-                      //   content: NotificationContent(
-                      //       id: 11,
-                      //       channelKey: 'basic_channel',
-                      //       title: 'This is Notification title',
-                      //       body: 'This is Body of Noti',
-                      //       bigPicture:
-                      //           'https://protocoderspoint.com/wp-content/uploads/2021/05/Monitize-flutter-app-with-google-admob-min-741x486.png',
-                      //       notificationLayout: NotificationLayout.BigPicture),
-                      //   schedule: NotificationCalendar(
-                      //       year: year,
-                      //       month: month,
-                      //       day: date,
-                      //       hour: hr,
-                      //       minute: mins),
-                      // );
+                    onpressed: () async {
+                      await supabase.from('TodoList').insert([
+                        {
+                          'email': supabase.auth.currentUser?.email,
+                          'task_name': _taskNameController.text,
+                          'task_description': _descriptionController.text,
+                          'date_time': dateTime,
+                          'color': selectColor,
+                          'year': year,
+                          'month': month,
+                          'date': date,
+                          'hr': hr,
+                          'mins': mins,
+                        }
+                      ]).execute();
+                      AwesomeNotifications().createNotification(
+                        content: NotificationContent(
+                            id: 11,
+                            channelKey: 'basic_channel',
+                            title: _taskNameController.text,
+                            body: _descriptionController.text,
+                            notificationLayout: NotificationLayout.BigText),
+                        schedule: NotificationCalendar(
+                            year: year,
+                            month: month,
+                            day: date,
+                            hour: hr,
+                            minute: mins),
+                      );
                       _descriptionController.text = "";
                       _taskNameController.text = "";
                       context.showSnackBar(message: "Successfully inserted!");
