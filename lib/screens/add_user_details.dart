@@ -98,7 +98,7 @@ class _AddUserDetailsState extends State<AddUserDetails> {
                   context.showErrorSnackBar(message: err.message);
                 else
                   Navigator.of(context)
-                      .pushNamedAndRemoveUntil('/account', (route) => false);
+                      .pushNamedAndRemoveUntil('/home', (route) => false);
               }
             },
           )
