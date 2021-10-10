@@ -1,16 +1,20 @@
-# utility_manager_flutter
+# Utility Manager Flutter Application!
 
-A new Flutter project.
+Utility Manager Flutter Application is made with Flutter and Supabase which allows user to add task, set remainder to the task, set color to separate tasks and it allows to add URL with URL's informations.  
 
-## Getting Started
+# Usage of Supabase ❣️ in this app
 
-This project is a starting point for a Flutter application.
+- Supabase Auth
+- Supabase Storage
+- Supabase Database
+- Supabase Realtime
 
-A few resources to get you started if this is your first Flutter project:
+# Used API's
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Utility Manager Flutter Application use **Open Source API's** to meet the purpose of the app.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[URL Meta](https://urlmeta.org/)
+
+# Demo
+
+<img src="readme-assets/auth.gif" width="200"> <img src="readme-assets/magic_link.gif" width="200">  <img src="readme-assets/home_screen.gif" width="200">  <img src="readme-assets/add_task.gif" width="200"> <img src="readme-assets/delte_task.gif" width="200">  <img src="readme-assets/add_url.gif" width="200"> <img src="readme-assets/search_url.gif" width="200">   
