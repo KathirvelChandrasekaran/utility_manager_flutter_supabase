@@ -8,7 +8,7 @@ Utility Manager Flutter Application is made with Flutter and Supabase which allo
 
 [Best Mobile Project](https://supabase.io/blog/2021/10/14/hacktoberfest-hackathon-winners-2021)
 
-<img src="readme-assets/Winner.png" width="200">
+<img src="readme-assets/Winner.png">
 
 # Usage of Supabase ❣️ in this app
 
@@ -25,4 +25,4 @@ Utility Manager Flutter Application use **Open Source API's** to meet the purpos
 
 # Demo
 
-<img src="readme-assets/auth.gif" width="1909"> <img src="readme-assets/magic_link.gif" width="200">  <img src="readme-assets/home_screen.gif" width="200">  <img src="readme-assets/add_task.gif" width="200"> <img src="readme-assets/delte_task.gif" width="200">  <img src="readme-assets/add_url.gif" width="200"> <img src="readme-assets/search_url.gif" width="200">   
+<img src="readme-assets/auth.gif" width="200"> <img src="readme-assets/magic_link.gif" width="200">  <img src="readme-assets/home_screen.gif" width="200">  <img src="readme-assets/add_task.gif" width="200"> <img src="readme-assets/delte_task.gif" width="200">  <img src="readme-assets/add_url.gif" width="200"> <img src="readme-assets/search_url.gif" width="200">   
