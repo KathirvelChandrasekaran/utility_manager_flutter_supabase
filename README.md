@@ -1,6 +1,14 @@
+## App for Supabase Hacktoberfest 🚀
+
 # Utility Manager Flutter Application!
 
 Utility Manager Flutter Application is made with Flutter and Supabase which allows user to add task, set remainder to the task, set color to separate tasks and it allows to add URL with URL's informations.  
+
+# Supabase Hacktoberfest winner announcement
+
+[Best Mobile Project](https://supabase.io/blog/2021/10/14/hacktoberfest-hackathon-winners-2021)
+
+<img src="readme-assets/Winner.png" width="200">
 
 # Usage of Supabase ❣️ in this app
 
