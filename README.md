@@ -25,4 +25,4 @@ Utility Manager Flutter Application use **Open Source API's** to meet the purpos
 
 # Demo
 
-<img src="readme-assets/auth.gif" width="200"> <img src="readme-assets/magic_link.gif" width="200">  <img src="readme-assets/home_screen.gif" width="200">  <img src="readme-assets/add_task.gif" width="200"> <img src="readme-assets/delte_task.gif" width="200">  <img src="readme-assets/add_url.gif" width="200"> <img src="readme-assets/search_url.gif" width="200">   
+<img src="readme-assets/auth.gif" width="1909"> <img src="readme-assets/magic_link.gif" width="200">  <img src="readme-assets/home_screen.gif" width="200">  <img src="readme-assets/add_task.gif" width="200"> <img src="readme-assets/delte_task.gif" width="200">  <img src="readme-assets/add_url.gif" width="200"> <img src="readme-assets/search_url.gif" width="200">   
